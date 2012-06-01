@@ -1,0 +1,38 @@
+{
+    "hash": "dce4eb6a5845c72a11af44b840c59167",
+    "packages": [
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "dc19d63559641fd283040471530b0117aa9a8c99",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "dc19d63559641fd283040471530b0117aa9a8c99"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "dev-master",
+            "source-reference": "49ad500448c17a4b515c8f567dbb540af3cf41ef",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "dev-master",
+            "source-reference": "49ad500448c17a4b515c8f567dbb540af3cf41ef"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/config": 20,
+        "symfony/yaml": 20
+    }
+}

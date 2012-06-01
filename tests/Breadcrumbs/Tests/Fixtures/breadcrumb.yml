@@ -1,0 +1,18 @@
+homepage:
+    crumbs:
+        - { title: Homepage, options: { uri: homepage } }
+
+acme_askeet_question_list:
+    parent: home
+    crumbs: 
+        - { title: Questions, options: { uri: acme_askeet_question_list } }
+
+acme_askeet_question_new:
+    parent: acme_askeet_question_list
+    crumbs: 
+        - { title: New }
+
+acme_askeet_question_show:
+    parent: acme_askeet_question_list
+    crumbs: 
+        - { title: %name%, options: { uri: acme_askeet_question_show, model: AcmeAskeetBundle:Question } }

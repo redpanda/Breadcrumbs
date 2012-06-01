@@ -1,0 +1,15 @@
+homepage:
+    crumbs:
+        - { title: Homepage, uri: / }
+
+foo:
+    crumbs:
+        - { title: Foo, uri: /foo }
+
+test:
+    crumbs:
+        - { title: Test, uri: /test }
+
+b2:
+    resource: b2.yml
+    root: homepage

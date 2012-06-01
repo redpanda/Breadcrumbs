@@ -1,0 +1,3 @@
+bar:
+    crumbs:
+        - { title: Bar, uri: /bar }
