@@ -12,7 +12,7 @@ use Symfony\Component\Yaml\Yaml;
 class YamlFileLoader extends FileLoader
 {
     private static $availableKeys = array(
-        'crumbs', 'resource', 'root'
+        'crumbs', 'resource', 'root', 'type'
     );
 
     public function load($file, $type = null)
