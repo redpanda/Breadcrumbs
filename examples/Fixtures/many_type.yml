@@ -1,0 +1,11 @@
+homepage:
+    crumbs:
+        - { title: Homepage, uri: / }
+
+php:
+    resource: b2.php
+    root: homepage
+
+yml:
+    resource: b2.yml
+    root: homepage
