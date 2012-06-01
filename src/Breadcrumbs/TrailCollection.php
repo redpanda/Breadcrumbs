@@ -2,6 +2,7 @@
 
 namespace Breadcrumbs;
 
+use Breadcrumbs\Exception\TrailNotFoundException;
 use Symfony\Component\Config\Resource\ResourceInterface;
 
 class TrailCollection implements \IteratorAggregate
@@ -24,6 +25,10 @@ class TrailCollection implements \IteratorAggregate
 
     public function get($name)
     {
+        if (!isset($this->trails[$name])) {
+            throw new TrailNotFoundException(sprintf('Trail "%s" does not exist.', $name));
+        }
+
         return $this->trails[$name];
     }
 
